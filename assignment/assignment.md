@@ -4,8 +4,8 @@
 
 시맨틱 태그의 요소
 
- <header>, <nav>, <article>, <section>, <footer>, <main> 등이 존재한다.
+ <!-- <header>, <nav>, <article>, <section>, <footer>, <main>  --> 등이 존재한다.
 
- 
+
 
 
