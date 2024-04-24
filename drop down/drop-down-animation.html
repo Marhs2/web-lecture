@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drop down</title>
+    <style>
+        li,ul{
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            font-size: 24px;
+            width: 200px;
+        }
+
+        .menu{
+            position: relative;
+            left: 47%;
+            background-color: aqua;
+
+        }
+
+        .menu > li{
+            opacity: 0;
+            height: 0px;
+            transition: all 0.5s; 
+        }
+
+
+        .menu:hover > li{
+            height: 100px;
+            opacity: 1;
+            transition: all 0.5s; 
+        }
+
+        .drop:hover{
+            background-color: antiquewhite;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <ul class="menu">list
+            <li class="drop">item1</li>
+            <li class="drop">item2</li>
+            <li class="drop">item3</li>
+            <li class="drop">item4</li>
+            <li class="drop">item5</li>
+        </ul>
+    </div>
+</body>
+</html>
