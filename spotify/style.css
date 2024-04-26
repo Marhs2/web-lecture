@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: inherit;
+    list-style: none;
+}
+
+
+.header-nav-header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-nav-header > img{
+    width: 150px;
+    height: 50px;
+}
+#down{
+    overflow: hidden;
+    height: 20px;
+    width: 70px;
+}
+.nav{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: space-between;
+}
+
+.Premium{
+    height: 500px;
+    background-color: #ffcdd2;
+}
